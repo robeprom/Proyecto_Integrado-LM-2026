@@ -1,1 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Datos sobre las películas de Tim Burton, fechas de estreno y títulos de las películas -->
+ <PelisTimburton propietario="robeprom">
+    <NombrePeli id="Corpse Bride"> La Novia Cadáver (título original: Corpse Bride) es una película de animación en stop-motion dirigida por Mike Johnson y Tim Burton, estrenada en 2005. La historia sigue a Victor Van Dort, un joven nervioso que accidentalmente se compromete con una novia cadáver mientras practica sus votos matrimoniales en el bosque. La película explora temas de amor, muerte y la vida después de la muerte, con un estilo visual oscuro y gótico característico de Tim Burton.
+        <nombre>Corpse Bride</nombre>
+        <estreno formato="fecha">2005</estreno>
+        <duración formato="minutos">77.5 minutos</duración>
+    </NombrePeli>
+    <NombrePeli>Nightmare Before Christmas (título original: The Nightmare Before Christmas) es una película de animación en stop-motion dirigida por Henry Selick y producida por Tim Burton, estrenada en 1993. La historia sigue a Jack Skellington, el rey de Halloween Town, que descubre la Navidad y decide secuestrar a Santa Claus para apoderarse de la festividad. La película combina elementos de terror y fantasía con un estilo visual único y una banda sonora memorable.
+        <nombre>The Nightmare Before Christmas</nombre>
+        <estreno formato="fecha">1993</estreno>
+        <duración formato="minutos">76 minutos</duración>      
+    </NombrePeli>
+    <NombrePeli>Edward Scissorhands (título original: Edward Scissorhands) es una película de fantasía y romance dirigida por Tim Burton, estrenada en 1990. La historia sigue a Edward, un hombre creado artificialmente que tiene tijeras en lugar de manos. A medida que intenta integrarse en la sociedad suburbana, enfrenta prejuicios y desafíos, mientras desarrolla una relación con Kim, una joven del vecindario. La película explora temas de aceptación, amor y la lucha entre la individualidad y la conformidad.
+        <nombre>Edward Scissorhands</nombre>
+        <estreno formato="fecha">1990</estreno>
+        <duración formato="minutos">105 minutos</duración>
+    </NombrePeli>
+            <Reseñas/>
+
+ </PelisTimburton>
