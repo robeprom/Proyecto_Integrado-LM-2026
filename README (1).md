@@ -20,3 +20,10 @@ personajes y sus curiosidades, así que podré ampliar la web todo el curso.
 ## Palabra del día
 
 metas
+
+## ¿Qué he hecho en esta entrega?
+
+En la clase de hoy he desarrollado el apartado del index.html, he buscado 
+información acerca del tema elegido, he aprendido a usar etiquetas dentro 
+de HTML y tambien he completado el apartado xml, he hecho los dos commit
+y los he subido a github.
