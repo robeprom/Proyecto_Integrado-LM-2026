@@ -40,6 +40,26 @@ Cosas que le faltan a mi index.html según lo visto en clase:
    `h3` para organizar las secciones, además de cita, texto preformateado y
    pie de página con entidades.
 
+### Validación W3C
+
+He validado todas las páginas en validator.w3.org (Validate by File Upload).
+
+| Página | Errores del validador | Cómo los corregí |
+|---|---|---|
+| index.html | 0 errores, 0 avisos | No tuvo errores. |
+| peliculas.html | 0 errores, 0 avisos | No tuvo errores. |
+| biografia.html | 0 errores, 0 avisos | No tuvo errores. |
+| estilo.html | 0 errores, 0 avisos | No tuvo errores. |
+
+### Qué he hecho en esta unidad
+
+En esta unidad he movido mi proyecto a la carpeta proyecto/ y he mejorado el
+index.html: he completado el head con title, description, keywords y author,
+y he organizado el body en bloques div comentados con una jerarquía de
+títulos sin saltos, una cita, una ficha en pre y entidades. Después he
+diseñado el mapa del sitio y he creado tres páginas nuevas sobre Tim Burton
+(películas, biografía y estilo), y las he validado todas en el W3C.
+
 ## Mapa del sitio
 
 | Fichero | title | Qué contiene |
