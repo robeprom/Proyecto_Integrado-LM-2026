@@ -27,3 +27,15 @@ En la clase de hoy he desarrollado el apartado del index.html, he buscado
 información acerca del tema elegido, he aprendido a usar etiquetas dentro 
 de HTML y tambien he completado el apartado xml, he hecho los dos commit
 y los he subido a github.
+
+## UD3 · Estructura HTML
+
+Cosas que le faltan a mi index.html según lo visto en clase:
+
+1. **Metadatos en el head:** el `title` no sigue el formato «Inicio | Nombre
+   del proyecto» y faltan las etiquetas `meta` description, keywords y author.
+2. **Bloques div:** todo el contenido está suelto en el body, sin agrupar en
+   bloques `div` ni comentarios que expliquen cada parte.
+3. **Jerarquía de títulos:** solo hay un `h1` y un `h2`; faltan más `h2` y
+   `h3` para organizar las secciones, además de cita, texto preformateado y
+   pie de página con entidades.
