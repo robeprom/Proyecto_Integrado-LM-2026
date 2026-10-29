@@ -39,3 +39,12 @@ Cosas que le faltan a mi index.html según lo visto en clase:
 3. **Jerarquía de títulos:** solo hay un `h1` y un `h2`; faltan más `h2` y
    `h3` para organizar las secciones, además de cita, texto preformateado y
    pie de página con entidades.
+
+## Mapa del sitio
+
+| Fichero | title | Qué contiene |
+|---|---|---|
+| index.html | Inicio \| Las películas de Tim Burton | Portada: presentación, lista de películas, mi opinión, ficha del director y enlaces. |
+| peliculas.html | Películas \| Las películas de Tim Burton | Todas las películas de datos.xml (Corpse Bride, The Nightmare Before Christmas y Edward Scissorhands) con su argumento, estreno y duración. |
+| biografia.html | Biografía \| Las películas de Tim Burton | Vida y carrera de Tim Burton: infancia en Burbank, sus años en Disney y sus grandes éxitos. |
+| estilo.html | Estilo \| Las películas de Tim Burton | Rasgos de su cine gótico, sus colaboradores habituales y curiosidades. |
