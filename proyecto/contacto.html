@@ -39,6 +39,52 @@
           <input type="tel" id="telefono" name="telefono" placeholder="Ej.: 600123456" minlength="9" maxlength="9" required>
         </p>
       </fieldset>
+      
+      <!-- Fieldset 2: sesión, películas y comentarios de la inscripción -->
+      <fieldset>
+        <legend>Tu inscripción</legend>
+        <p>Sesión a la que quieres asistir:</p>
+        <p>
+          <input type="radio" id="sesion-manana" name="sesion" value="manana">
+          <label for="sesion-manana">Mañana (10:00)</label>
+          <input type="radio" id="sesion-tarde" name="sesion" value="tarde">
+          <label for="sesion-tarde">Tarde (17:00)</label>
+          <input type="radio" id="sesion-noche" name="sesion" value="noche" checked>
+          <label for="sesion-noche">Noche (22:00)</label>
+        </p>
+        <p>Películas que quieres ver en el maratón:</p>
+        <p>
+          <input type="checkbox" id="peli-beetlejuice" name="peliculas" value="beetlejuice">
+          <label for="peli-beetlejuice">Beetlejuice</label>
+          <input type="checkbox" id="peli-edward" name="peliculas" value="edward-scissorhands">
+          <label for="peli-edward">Edward Scissorhands</label>
+          <input type="checkbox" id="peli-nightmare" name="peliculas" value="nightmare-before-christmas">
+          <label for="peli-nightmare">The Nightmare Before Christmas</label>
+          <input type="checkbox" id="peli-corpse" name="peliculas" value="corpse-bride">
+          <label for="peli-corpse">Corpse Bride</label>
+        </p>
+        <p>
+          <label for="favorita">Tu película favorita de Tim Burton:</label>
+          <select id="favorita" name="favorita">
+            <option value="beetlejuice">Beetlejuice</option>
+            <option value="edward-scissorhands">Edward Scissorhands</option>
+            <option value="batman-returns">Batman Returns</option>
+            <option value="nightmare-before-christmas">The Nightmare Before Christmas</option>
+            <option value="corpse-bride" selected>Corpse Bride</option>
+            <option value="sweeney-todd">Sweeney Todd</option>
+          </select>
+        </p>
+        <p>
+          <label for="comentarios">Comentarios o peticiones:</label>
+          <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Ej.: me gustaría que hubiera palomitas góticas" maxlength="300"></textarea>
+        </p>
+      </fieldset>
+
+      <!-- Botones: enviar o borrar el formulario -->
+      <p>
+        <button type="submit" name="enviar" value="enviar">Enviar inscripción</button>
+        <button type="reset" name="borrar" value="borrar">Borrar formulario</button>
+      </p>
     </form>
   </div>
 
