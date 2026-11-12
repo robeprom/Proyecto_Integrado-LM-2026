@@ -74,3 +74,29 @@ diseñado el mapa del sitio y he creado tres páginas nuevas sobre Tim Burton
 
 En la página peliculas.html voy a poner una tabla con la filmografía de Tim Burton: el título de cada película, su año de estreno, su duración, si es de animación o de imagen real y quién hizo la música.
 El formulario de la nueva página contacto.html servirá para que los visitantes se apunten en un maratón de cine de Tim Burton y elijan las películas que quieren ver.
+
+
+### Método del formulario
+
+Uso `method="post"` y no `get` porque con `post` los datos del formulario (nombre, correo, teléfono…) se envían dentro del cuerpo de la petición y no aparecen en la URL, mientras que con `get` quedarían a la vista en la barra del navegador y en el historial.
+
+### Prueba con get
+
+Al cambiar temporalmente el formulario a `method="get"` y pulsar «Enviar inscripción», la barra del navegador mostró esta URL (con datos de ejemplo):
+
+```
+file:///C:/Users/rober/Desktop/Instituto/Lenguaje_de_marcas/Proyecto_Integrado-LM-2026/proyecto/contacto.html?nombre=roberto+garcia&email=victor%40correo.com&telefono=600123456&sesion=tarde&peliculas=nightmare-before-christmas&peliculas=corpse-bride&favorita=corpse-bride&comentarios=holaaaaaaa&enviar=enviar#
+```
+
+Después volví a dejar el formulario con `method="post"`.
+
+### Validación W3C
+
+| Página | Errores del validador | Cómo los corregí |
+|---|---|---|
+| peliculas.html | 0 errores, 0 avisos | No tuvo errores. |
+| contacto.html | 0 errores, 0 avisos | No tuvo errores. |
+
+### Qué he hecho en esta unidad
+
+En esta unidad he añadido a peliculas.html una tabla con la filmografía de Tim Burton, con caption, thead, tbody, tfoot, colgroup, celdas th con scope y un rowspan y un colspan. También he creado la página contacto.html con un formulario de inscripción a un maratón de cine, organizado en dos fieldset y con todos los tipos de control vistos en clase. Por último, la he enlazado desde index.html y el mapa del sitio y he validado las dos páginas en el W3C.
