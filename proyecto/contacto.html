@@ -9,7 +9,9 @@
   <meta name="author" content="Roberto García García">
 </head>
 <body>
+  <!-- NAV: aquí irá el menú (UD4) -->
 
+  <!-- Cabecera: título de la página y presentación -->
   <div>
     <h1>Inscríbete en el maratón Tim Burton</h1>
     <p>Rellena este formulario para apuntarte a nuestro <b>maratón de cine de Tim Burton</b>: elige la sesión, las películas que quieres ver y déjanos tus comentarios.</p>
@@ -17,13 +19,30 @@
 
   <hr>
 
+  <!-- Bloque formulario: inscripción al maratón -->
   <div>
     <h2>Formulario de inscripción</h2>
     <form action="#" method="post">
-      <!-- Aquí irán los fieldset -->
+      <!-- Fieldset 1: datos personales del asistente -->
+      <fieldset>
+        <legend>Tus datos</legend>
+        <p>
+          <label for="nombre">Nombre y apellidos:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ej.: Victor Van Dort" maxlength="50" required autofocus>
+        </p>
+        <p>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" placeholder="Ej.: victor@correo.com" required>
+        </p>
+        <p>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="Ej.: 600123456" minlength="9" maxlength="9" required>
+        </p>
+      </fieldset>
     </form>
   </div>
 
+  <!-- Pie de página: copyright, año y autor -->
   <div>
     <p>&copy; 2026 Roberto García García</p>
   </div>
