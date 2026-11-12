@@ -68,6 +68,7 @@ diseñado el mapa del sitio y he creado tres páginas nuevas sobre Tim Burton
 | peliculas.html | Películas \| Las películas de Tim Burton | Todas las películas de datos.xml (Corpse Bride, The Nightmare Before Christmas y Edward Scissorhands) con su argumento, estreno y duración. |
 | biografia.html | Biografía \| Las películas de Tim Burton | Vida y carrera de Tim Burton: infancia en Burbank, sus años en Disney y sus grandes éxitos. |
 | estilo.html | Estilo \| Las películas de Tim Burton | Rasgos de su cine gótico, sus colaboradores habituales y curiosidades. |
+| contacto.html | Contacto \| Las películas de Tim Burton | Formulario de inscripción al maratón de cine de Tim Burton: datos personales, sesión, películas que quieres ver y comentarios. |
 
 ## UD5 · Tablas y formularios
 
