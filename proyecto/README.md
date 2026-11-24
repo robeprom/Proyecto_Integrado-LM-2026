@@ -100,3 +100,5 @@ Después volví a dejar el formulario con `method="post"`.
 ### Qué he hecho en esta unidad
 
 En esta unidad he añadido a peliculas.html una tabla con la filmografía de Tim Burton, con caption, thead, tbody, tfoot, colgroup, celdas th con scope y un rowspan y un colspan. También he creado la página contacto.html con un formulario de inscripción a un maratón de cine, organizado en dos fieldset y con todos los tipos de control vistos en clase. Por último, la he enlazado desde index.html y el mapa del sitio y he validado las dos páginas en el W3C.
+
+Palabra del dia del dia 5: DIA
