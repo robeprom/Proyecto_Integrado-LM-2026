@@ -48,13 +48,25 @@
           </p>
           <p>
             <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" placeholder="Ej.: 600123456" minlength="9" maxlength="9" required>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ej.: 600123456" pattern="[6-9][0-9]{8}" title="Nueve cifras seguidas que empiecen por 6, 7, 8 o 9" maxlength="9" required>
+          </p>
+          <p>
+            <label for="cp">Código postal:</label>
+            <input type="text" id="cp" name="cp" placeholder="Ej.: 28001" pattern="(0[1-9]|[1-4][0-9]|5[0-2])[0-9]{3}" title="Código postal español: cinco cifras, de 01000 a 52999" maxlength="5" required>
+          </p>
+          <p>
+            <label for="web">Tu perfil o blog de cine (opcional):</label>
+            <input type="url" id="web" name="web" placeholder="Ej.: https://www.miblogdecine.com">
           </p>
         </fieldset>
         
         <!-- Fieldset 2: sesión, películas y comentarios de la inscripción -->
         <fieldset>
           <legend>Tu inscripción</legend>
+          <p>
+            <label for="fecha">Día al que quieres asistir (del 11 al 20 de diciembre):</label>
+            <input type="date" id="fecha" name="fecha" min="2026-12-11" max="2026-12-20" required>
+          </p>
           <p>Sesión a la que quieres asistir:</p>
           <p>
             <input type="radio" id="sesion-manana" name="sesion" value="manana">
@@ -87,6 +99,22 @@
             </select>
           </p>
           <p>
+            <label for="entradas">Número de entradas (máximo 6):</label>
+            <input type="number" id="entradas" name="entradas" placeholder="Ej.: 2" min="1" max="6" step="1" required>
+          </p>
+          <p>
+            <label for="hora">Hora para llamarte y confirmar la plaza (de 9:00 a 20:00, cada 15 minutos):</label>
+            <input type="time" id="hora" name="hora" min="09:00" max="20:00" step="900">
+          </p>
+          <p>
+            <label for="puntuacion">Cuánto te gusta Tim Burton (de 0 a 10):</label>
+            <input type="range" id="puntuacion" name="puntuacion" min="0" max="10" step="1" value="8">
+          </p>
+          <p>
+            <label for="pulsera">Color de tu pulsera de acceso:</label>
+            <input type="color" id="pulsera" name="pulsera" value="#4b0082">
+          </p>
+          <p>
             <label for="comentarios">Comentarios o peticiones:</label>
             <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Ej.: me gustaría que hubiera palomitas góticas" maxlength="300"></textarea>
           </p>
@@ -98,6 +126,18 @@
           <button type="reset" name="borrar" value="borrar">Borrar formulario</button>
         </p>
       </form>
+    </section>
+
+    <hr>
+
+    <!-- Bloque aforo: plazas ocupadas del maratón -->
+    <section>
+      <h2>Aforo del maratón</h2>
+      <p>
+        <label for="aforo">Plazas ocupadas:</label>
+        <meter id="aforo" min="0" max="120" low="60" high="100" optimum="0" value="84">84 de 120 plazas</meter>
+        84 de 120 plazas
+      </p>
     </section>
   </main>
 
