@@ -6,138 +6,151 @@
   <title>Películas | Las películas de Tim Burton</title>
   <meta name="description" content="Ficha de las películas de Tim Burton recogidas en datos.xml: Corpse Bride, The Nightmare Before Christmas y Edward Scissorhands.">
   <meta name="keywords" content="Tim Burton, Corpse Bride, The Nightmare Before Christmas, Edward Scissorhands, stop-motion">
-  <meta name="author" content="Roberto García García">
+  <meta name="author" content="robeprom">
 </head>
 <body>
-  <!-- NAV: aquí irá el menú (UD4) -->
+  <!-- Cabecera: nombre del sitio y menú de navegación -->
+  <header>
+    <p><a href="index.html">Las películas de Tim Burton</a></p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="peliculas.html" aria-current="page">Películas</a></li>
+        <li><a href="biografia.html">Biografía</a></li>
+        <li><a href="estilo.html">Estilo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Cabecera: título de la página y presentación -->
-  <div>
+  <!-- Contenido principal de la página -->
+  <main>
+    <!-- Presentación: título principal de la página -->
     <h1>Las películas en detalle</h1>
     <p>En esta página están todas las películas que aparecen en el archivo <b>datos.xml</b>, con su argumento, su año de estreno y su duración.</p>
-  </div>
 
-  <hr>
+    <hr>
 
-  <!-- Bloque de películas: un div por cada elemento de datos.xml -->
-  <div>
-    <h2>Películas del archivo de datos</h2>
+    <!-- Bloque de películas: un article por cada elemento de datos.xml -->
+    <section>
+      <h2>Películas del archivo de datos</h2>
 
-    <!-- Película 1: Corpse Bride -->
-    <div>
-      <h3>Corpse Bride</h3>
-      <p>La Novia Cadáver (título original: <i>Corpse Bride</i>) es una película de animación en stop-motion dirigida por Mike Johnson y Tim Burton. La historia sigue a Victor Van Dort, un joven nervioso que accidentalmente se compromete con una novia cadáver mientras practica sus votos matrimoniales en el bosque.</p>
-      <p>La película explora temas de amor, muerte y la vida después de la muerte, con un estilo visual oscuro y gótico característico de Tim Burton.</p>
-      <p><b>Estreno:</b> 2005 &middot; <b>Duración:</b> 77.5 minutos</p>
-    </div>
+      <!-- Película 1: Corpse Bride -->
+      <article>
+        <h3>Corpse Bride</h3>
+        <p>La Novia Cadáver (título original: <i>Corpse Bride</i>) es una película de animación en stop-motion dirigida por Mike Johnson y Tim Burton. La historia sigue a Victor Van Dort, un joven nervioso que accidentalmente se compromete con una novia cadáver mientras practica sus votos matrimoniales en el bosque.</p>
+        <p>La película explora temas de amor, muerte y la vida después de la muerte, con un estilo visual oscuro y gótico característico de Tim Burton.</p>
+        <p><b>Estreno:</b> 2005 &middot; <b>Duración:</b> 77.5 minutos</p>
+      </article>
 
-    <!-- Película 2: The Nightmare Before Christmas -->
-    <div>
-      <h3>The Nightmare Before Christmas</h3>
-      <p>Pesadilla antes de Navidad (título original: <i>The Nightmare Before Christmas</i>) es una película de animación en stop-motion dirigida por Henry Selick y producida por Tim Burton. La historia sigue a Jack Skellington, el rey de Halloween Town, que descubre la Navidad y decide secuestrar a Santa Claus para apoderarse de la festividad.</p>
-      <p>La película combina elementos de terror y fantasía con un estilo visual único y una banda sonora memorable.</p>
-      <p><b>Estreno:</b> 1993 &middot; <b>Duración:</b> 76 minutos</p>
-    </div>
+      <!-- Película 2: The Nightmare Before Christmas -->
+      <article>
+        <h3>The Nightmare Before Christmas</h3>
+        <p>Pesadilla antes de Navidad (título original: <i>The Nightmare Before Christmas</i>) es una película de animación en stop-motion dirigida por Henry Selick y producida por Tim Burton. La historia sigue a Jack Skellington, el rey de Halloween Town, que descubre la Navidad y decide secuestrar a Santa Claus para apoderarse de la festividad.</p>
+        <p>La película combina elementos de terror y fantasía con un estilo visual único y una banda sonora memorable.</p>
+        <p><b>Estreno:</b> 1993 &middot; <b>Duración:</b> 76 minutos</p>
+      </article>
 
-    <!-- Película 3: Edward Scissorhands -->
-    <div>
-      <h3>Edward Scissorhands</h3>
-      <p>Eduardo Manostijeras (título original: <i>Edward Scissorhands</i>) es una película de fantasía y romance dirigida por Tim Burton. La historia sigue a Edward, un hombre creado artificialmente que tiene tijeras en lugar de manos. A medida que intenta integrarse en la sociedad suburbana, se enfrenta a prejuicios mientras desarrolla una relación con Kim, una joven del vecindario.</p>
-      <p>La película explora temas de aceptación, amor y la lucha entre la individualidad y la conformidad.</p>
-      <p><b>Estreno:</b> 1990 &middot; <b>Duración:</b> 105 minutos</p>
-    </div>
-  </div>
+      <!-- Película 3: Edward Scissorhands -->
+      <article>
+        <h3>Edward Scissorhands</h3>
+        <p>Eduardo Manostijeras (título original: <i>Edward Scissorhands</i>) es una película de fantasía y romance dirigida por Tim Burton. La historia sigue a Edward, un hombre creado artificialmente que tiene tijeras en lugar de manos. A medida que intenta integrarse en la sociedad suburbana, se enfrenta a prejuicios mientras desarrolla una relación con Kim, una joven del vecindario.</p>
+        <p>La película explora temas de aceptación, amor y la lucha entre la individualidad y la conformidad.</p>
+        <p><b>Estreno:</b> 1990 &middot; <b>Duración:</b> 105 minutos</p>
+      </article>
+    </section>
 
-  <hr>
+    <hr>
 
-  <!-- Bloque resumen: tabla de datos en texto preformateado -->
-  <div>
-    <h2>Resumen de datos</h2>
-    <p>Las tres películas ordenadas por año de estreno:</p>
-    <pre>
+    <!-- Bloque resumen: tabla de datos en texto preformateado -->
+    <aside>
+      <h2>Resumen de datos</h2>
+      <p>Las tres películas ordenadas por año de estreno:</p>
+      <pre>
 Película                          Estreno   Duración
 --------------------------------  -------   --------
 Edward Scissorhands               1990      105 min
 The Nightmare Before Christmas    1993       76 min
 Corpse Bride                      2005      77.5 min
 </pre>
-  </div>
-  <hr>
+    </aside>
+    <hr>
 
-  <!-- Bloque filmografía: tabla con los datos principales de sus películas -->
-  <div>
-    <h2>Filmografía destacada</h2>
-    <!-- Tabla: título, año, duración, técnica y compositor de 6 películas de Tim Burton, ordenadas por año -->
-    <table>
-      <caption>Filmografía destacada de Tim Burton (como director o productor)</caption>
-      <colgroup>
-        <col>
-        <col span="2">
-        <col span="2">
-      </colgroup>
-      <thead>
-        <tr>
-          <th scope="col">Película</th>
-          <th scope="col">Año</th>
-          <th scope="col">Duración</th>
-          <th scope="col">Técnica</th>
-          <th scope="col">Compositor</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Beetlejuice</th>
-          <td>1988</td>
-          <td>92 min</td>
-          <td>Imagen real</td>
-          <td rowspan="5">Danny Elfman</td>
-        </tr>
-        <tr>
-          <th scope="row">Edward Scissorhands</th>
-          <td>1990</td>
-          <td>105 min</td>
-          <td>Imagen real</td>
-        </tr>
-        <tr>
-          <th scope="row">Batman Returns</th>
-          <td>1992</td>
-          <td>126 min</td>
-          <td>Imagen real</td>
-        </tr>
-        <tr>
-          <th scope="row">The Nightmare Before Christmas</th>
-          <td>1993</td>
-          <td>76 min</td>
-          <td>Stop-motion</td>
-        </tr>
-        <tr>
-          <th scope="row">Corpse Bride</th>
-          <td>2005</td>
-          <td>77 min</td>
-          <td>Stop-motion</td>
-        </tr>
-        <tr>
-          <th scope="row">Sweeney Todd</th>
-          <td>2007</td>
-          <td>116 min</td>
-          <td>Imagen real</td>
-          <td>Stephen Sondheim</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <th scope="row">Total</th>
-          <td colspan="2">6 películas, 592 min en total</td>
-          <td>2 de animación</td>
-          <td>5 con Danny Elfman</td>
-        </tr>
-      </tfoot>
-    </table>
-  </div>
+    <!-- Bloque filmografía: tabla con los datos principales de sus películas -->
+    <section>
+      <h2>Filmografía destacada</h2>
+      <!-- Tabla: título, año, duración, técnica y compositor de 6 películas de Tim Burton, ordenadas por año -->
+      <table>
+        <caption>Filmografía destacada de Tim Burton (como director o productor)</caption>
+        <colgroup>
+          <col>
+          <col span="2">
+          <col span="2">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Película</th>
+            <th scope="col">Año</th>
+            <th scope="col">Duración</th>
+            <th scope="col">Técnica</th>
+            <th scope="col">Compositor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Beetlejuice</th>
+            <td>1988</td>
+            <td>92 min</td>
+            <td>Imagen real</td>
+            <td rowspan="5">Danny Elfman</td>
+          </tr>
+          <tr>
+            <th scope="row">Edward Scissorhands</th>
+            <td>1990</td>
+            <td>105 min</td>
+            <td>Imagen real</td>
+          </tr>
+          <tr>
+            <th scope="row">Batman Returns</th>
+            <td>1992</td>
+            <td>126 min</td>
+            <td>Imagen real</td>
+          </tr>
+          <tr>
+            <th scope="row">The Nightmare Before Christmas</th>
+            <td>1993</td>
+            <td>76 min</td>
+            <td>Stop-motion</td>
+          </tr>
+          <tr>
+            <th scope="row">Corpse Bride</th>
+            <td>2005</td>
+            <td>77 min</td>
+            <td>Stop-motion</td>
+          </tr>
+          <tr>
+            <th scope="row">Sweeney Todd</th>
+            <td>2007</td>
+            <td>116 min</td>
+            <td>Imagen real</td>
+            <td>Stephen Sondheim</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="2">6 películas, 592 min en total</td>
+            <td>2 de animación</td>
+            <td>5 con Danny Elfman</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
 
-  <!-- Pie de página: copyright, año y autor -->
-  <div>
-    <p>&copy; 2026 Roberto García García</p>
-  </div>
+  <!-- Pie de página: firma -->
+  <footer>
+    <p id="firma-robeprom">© 2026 robeprom</p>
+  </footer>
 </body>
 </html>
